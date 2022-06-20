@@ -1,0 +1,43 @@
+.PlayButton {
+    /* only lower case letters for animations name */
+    justify-content: center;
+    /* animation: showbutton 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+    display: flex;
+    background-color: blueviolet;
+    color: blue;
+}
+
+@keyframes showbutton {
+    from {
+        justify-content: center;
+    }
+    to {
+        justify-content: center;
+        background-color: blueviolet;
+        color: blue;
+    }
+}
+
+.PlayButton:hover {
+    /* animation: hoverbutton;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;   */
+    color:rgb(193, 196, 31);
+    background-color: green;
+}
+
+@keyframes hoverbutton {
+    from {
+        justify-content: center; 
+    }
+    to {
+        justify-content: center;
+        background-color: green; 
+        color:rgb(193, 196, 31);
+    }    
+}

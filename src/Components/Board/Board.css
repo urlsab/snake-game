@@ -1,0 +1,11 @@
+.gridBoard {
+    display: grid;
+    /* our full screen-grid is 24 col [24 "auto"] on (can be change -->) 38 rows = 912 boxes */
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin-top: 2px;  
+}
+
+.gridItems {
+    padding: 8px;
+    display: inline-block;
+}
